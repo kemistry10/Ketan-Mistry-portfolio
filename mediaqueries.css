@@ -15,6 +15,16 @@
   #hamburger-nav {
     display: flex;
   }
+  .hamburger-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .hamburger-menu img {
+    padding-top: 8px;
+  }
   #experience,
   .experience-details-container {
     margin-top: 2rem;
@@ -31,6 +41,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
   }
   section {
     margin: 0 5%;
