@@ -369,6 +369,10 @@ section {
 }
 
 .about-containers {
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: fit-content;
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
