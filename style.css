@@ -218,7 +218,7 @@ section {
   border-radius: 155px;
   position: relative;
   z-index: 1;
-  animation: frame 5s linear 1;
+  animation: frame 10s ease-in-out infinite;
 }
 
 @keyframes frame{
