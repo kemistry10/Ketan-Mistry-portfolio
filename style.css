@@ -218,7 +218,7 @@ section {
   border-radius: 155px;
   position: relative;
   z-index: 1;
-  animation: frame 10s ease-in-out infinite;
+  /* animation: frame 10s ease-in-out infinite; */
 }
 
 @keyframes frame{
@@ -244,20 +244,12 @@ section {
 
 /* PROFILE SECTION */
 
-#about {
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 1rem;
-  max-width: 1200px;
-}
-
 #profile {
   display: flex;
   justify-content: center;
   gap: 5rem;
   height: 80vh;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 .section__pic-container {
@@ -369,7 +361,12 @@ section {
 /* ABOUT SECTION */
 
 #about {
-  position: relative;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1.5rem;
+  align-content: center;
+  align-items: center;
 }
 
 .about-containers {
@@ -397,6 +394,9 @@ section {
 
 .text-container {
   justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 780px;
 }
 
 .about-pic {
